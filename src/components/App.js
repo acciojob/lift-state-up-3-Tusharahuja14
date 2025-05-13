@@ -10,7 +10,7 @@ const App = () => {
   };
 
   return (
-    <div style={{ background: 'Green' }} id="parent">
+    <div style={{ background: 'Green' }} id="main" className="parent">
       <h1 >Parent Component</h1>
 
       {/* Pass the handleSelectedOption function to child components */}
